@@ -1,12 +1,24 @@
 # MAANG Analysis
 
-## Introduction
+### Introduction
 Data Analysis of MAANG companies stock market data between 2001-2023.
 
-Dataset by SOUMENDRA PRASAD MOHANTY on Kaggle: https://www.kaggle.com/datasets/soumendraprasad/stock
+Datasets by SOUMENDRA PRASAD MOHANTY on Kaggle: https://www.kaggle.com/datasets/soumendraprasad/stock
 
-## Setup
+## Preprocessing data
 
-Preprocessing data: **preprocess.ipynb**
+```preprocess.ipynb```
 
-Data Analysis: **analysis.ipynb**
+Clean up csv files
+
+Combine into one dataframe
+
+Add and remove columns:
+- Min-Max normalized Close
+- Index normalized Close
+
+## Data Analysis
+
+```analysis.ipynb```
+
+Analysis with Visualizations
